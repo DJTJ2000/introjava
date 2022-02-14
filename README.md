@@ -22,13 +22,13 @@ Surnames_2010Census.csv – the census data project
 Main.java – the Main class containing a pre-written Main method
 Census.java – a class that contains a partially-written loadCensusData() method that you will complete to read and process the census data file
 Surname.java – a class that holds one surname and its related metadata
-3. For the Surname class you will need to add the constructor, and accessors and mutators.
+3. COMPLETED For the Surname class you will need to add the constructor, and accessors and mutators.
 
-4. The Census class contains a loadCensusData() method you will complete that will read and process the census data file. The filename of the census data file is passed in as a parameter. Make sure that you skip the line of the file that only contains column headings.
+4. COMPLETED The Census class contains a loadCensusData() method you will complete that will read and process the census data file. The filename of the census data file is passed in as a parameter. Make sure that you skip the line of the file that only contains column headings.
 You can open a file using java.io.File; simply pass the file name to the File constructor. See the documentation on File for more details: https://docs.oracle.com/javase/7/docs/api/java/io/File.html
 You can then read from the file using java.util.Scanner by passing the File object to the Scanner’s constructor. 
 
-5. Read the first one hundred surnames in the file. Read each line containing a surname as a single String. 
+5. COMPLETED Read the first one hundred surnames in the file. Read each line containing a surname as a single String. 
 
 
 6. Use the String method split(“,”) to split each String into an array of Strings split at the comma delimiter. See the documentation on the Java String class for details of the split() method:
